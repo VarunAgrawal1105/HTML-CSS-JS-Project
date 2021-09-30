@@ -1,0 +1,71 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+#header{
+    height:50px;
+    background-color:#46d7ac;
+    text-align: center;
+    border: 1px solid black;
+}
+
+#header h4{
+    color: #FFF;
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 7px;
+    font-weight: 600;
+} 
+.vl {
+    margin-top: 4%;
+    border-left: 2px solid #46d7ac;
+    height: 380px;
+  }
+
+form input{
+    border-radius: 5px;
+  }
+.btn{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+  #footer{
+    height: 30px;
+    position: fixed;
+    left:0;
+    bottom: 0;
+    width: 100%;
+    background-color:#46d7ac;
+    text-align: center;
+    border: 1px solid black;
+  }
+  #footer h6{
+    color: #FFF;
+    padding-top: 7px;
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+}
+
+#imgStudent{
+    margin-left: 50px;
+}
+
+thead{
+    background-color: yellowgreen;
+}
+.mytable, th, tr,td{
+    border: 2px solid yellowgreen;
+}
+th{
+    color: #fff;
+}
+tr:nth-child(even){
+    background-color: rgba(153, 205, 50, 0.450);
+}
+
+@media only screen and (max-width: 750px) {
+    .vl {
+        display: none;
+      }
+  }
